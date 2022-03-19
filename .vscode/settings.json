@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.probe": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+    "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+    "eslint.options": {
+        "extensions": [".js", ".vue", ".ts"]
+    },
+    "files.associations": {
+        // "*.js": "javascript",
+        "*.vue": "vue"
+        // "*.ts": "typescript"
+    },
+    "javascript.validate.enable": false,
+    "tslint.jsEnable": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.configPath": ".prettierrc",
+    "prettier.prettierPath": ".prettierrc",
+    "prettier.tabWidth": 4,
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}

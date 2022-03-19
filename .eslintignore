@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Editor and IDE files
+.vscode
+.idea
+dist
+config
+babel.config.js
+scripts/
+global.d.ts
