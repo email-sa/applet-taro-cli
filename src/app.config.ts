@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    pages: ['pages/tabBar/home/index'],
+    pages: ['pages/tabBar/index/index'],
     window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#fff',

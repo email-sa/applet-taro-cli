@@ -5,7 +5,11 @@ node_modules/
 .vscode
 .idea
 dist
-config
 babel.config.js
 scripts/
-global.d.ts
+.prettierrc
+babel.config.js
+commitlint.config.js
+project.config.json
+project.tt.json
+tsconfig.json

@@ -47,7 +47,7 @@ const config = {
             exclude: [
                 modulePath => /[\\/]node_modules[\\/]/.test(modulePath),
                 modulePath => /[\\/]scripts[\\/]/.test(modulePath)
-                modulePath => /[\\/].cz-config.js[\\/]/.test(modulePath)
+                // modulePath => /[\\/].cz-config.js[\\/]/.test(modulePath)
             ]
         },
         postcss: {
