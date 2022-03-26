@@ -14,8 +14,8 @@ Taro + webpack + nutui/taro-ui +vue3/react 的脚手架
     ├── ajax/               // ajax 二次封装
     ├── api/                // api 接口
     ├── assets/             // 静态资源目录
-    ├── components/                 // 公共组件目录
-    ├── hooks/                 // 项目hook目录
+    ├── components/         // 公共组件目录
+    ├── hooks/              // 项目hook目录
     ├── style/              // 通用 CSS 目录
     ├── utils/              // 工具函数目录
     ├── pages/              // 页面组件目录
@@ -23,7 +23,7 @@ Taro + webpack + nutui/taro-ui +vue3/react 的脚手架
     ├── app.scss
     ├── app.ts
     ├── index.html
-├── .cz-config.js                  // 单元测试目录
+├── .cz-config.js
 ├── .editorconfig
 ├── .eslintrc.js
 ├── .gitignore
