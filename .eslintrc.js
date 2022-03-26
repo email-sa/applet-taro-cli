@@ -29,21 +29,15 @@ module.exports = {
         'no-delete-var': 'error',
         'stylusSupremacy.insertNewLineAroundImports': 'off',
         'vue/component-definition-name-casing': ['error', 'PascalCase'],
-        'vue/html-closing-bracket-newline': [
-            'error',
-            {
-                singleline: 'never',
-                multiline: 'always'
-            }
-        ],
-        'vue/html-closing-bracket-spacing': [
-            'error',
-            {
-                startTag: 'never',
-                endTag: 'never',
-                selfClosingTag: 'always'
-            }
-        ],
+        "vue/html-closing-bracket-newline": ["error", {
+            "singleline": "never",
+            "multiline": "always"
+          }]
+          "vue/html-closing-bracket-spacing": ["error", {
+            "startTag": "always" | "never",
+            "endTag": "always" | "never",
+            "selfClosingTag": "always" | "never"
+          }]
         'vue/max-attributes-per-line': 0,
         indent: 'off',
         '@typescript-eslint/indent': 'off',
